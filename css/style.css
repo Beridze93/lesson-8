@@ -1,0 +1,75 @@
+body, html{
+	width: 100%;
+	height:100%;
+}
+
+.navigation{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+.green-wraper{
+	position: relative;
+	width: 100%;
+	height:100%;
+	background-color: #652D88;
+
+}
+.poto{
+	width: 130px;
+	border-radius: 60px;
+}
+.geolab-logo{
+	width: 100%;
+    height: 170px;
+
+
+}
+@keyframes animationlogo {
+	0%{left: 0px}
+	50%{left: 90%}
+	100%{left: 0px}
+
+}
+.mov{
+	margin: 23px 2px;
+    position: relative;
+    display: inline-block;
+    animation: animationlogo 10s infinite;
+}
+.poto1 {
+	width: 250px;
+	margin-left: 100px;
+}
+.geolab-logo2{
+	position: absolute;
+    margin-top: 70px;
+    height: 280px;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.poto1{
+	position: absolute;
+    display: inline-block;
+    animation: animationrame 10s infinite;
+}
+
+@keyframes animationrame {
+	to {transform: rotate(360deg);} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
